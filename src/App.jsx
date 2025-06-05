@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import ImgBar from "./components/ImgBar";
+import FullImg from "./components/FullImg";
 
 export default function App() {
   const [id, setId] = useState(1);
@@ -8,7 +9,7 @@ export default function App() {
   useEffect(() => {
     async function getDate() {
       const respons = await fetch(import.meta.env.VITE_API_URL);
-      const jsonData = await respons.json;
+      const jsonData = await respons.json();
       setData(jsonData);
     }
     getDate();
@@ -16,7 +17,10 @@ export default function App() {
 
   return (
     <>
-      <ImgBar data={data} />
+      {/* <ImgBar data={data} /> */}
+      {data.map((item) => {
+        return item.id === id ? <FullImg key={item.id} item={item} /> : null;
+      })}
     </>
   );
 }

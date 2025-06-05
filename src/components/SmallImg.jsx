@@ -1,7 +1,7 @@
 export default function SmallImg(props) {
   return (
     <div>
-      <img src={props.item.image} alt={props.item.alt} />
+      <img src={props.item.url} alt={props.item.alt} />
     </div>
   );
 }
