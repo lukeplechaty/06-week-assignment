@@ -1,9 +1,22 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import ImgBar from "./components/ImgBar";
 
 export default function App() {
-  const [count, setCount] = useState(0);
-  useEffect(() => {});
+  const [id, setId] = useState(1);
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    async function getDate() {
+      const respons = await fetch(import.meta.env.VITE_API_URL);
+      const jsonData = await respons.json;
+      setData(jsonData);
+    }
+    getDate();
+  }, []);
 
-  return <></>;
+  return (
+    <>
+      <ImgBar data={data} />
+    </>
+  );
 }

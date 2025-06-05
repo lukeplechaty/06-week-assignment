@@ -1,12 +1,14 @@
-# React + Vite
+# week 3 assingment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Reflection
 
-Currently, two official plugins are available:
+<img src="image.png" alt="phone & desktop"/>
+<img src="image-2.png" alt="site flow"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- basic requirements
 
-## Expanding the ESLint configuration
+- stretch goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## References
+
+- i use okso.app to help make a layout
