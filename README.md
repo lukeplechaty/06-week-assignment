@@ -2,8 +2,11 @@
 
 ## Reflection
 
-<img src="image.png" alt="phone & desktop"/>
+<img src="image-1.png" alt="phone & desktop"/>
 <img src="image-2.png" alt="site flow"/>
+<img src="image-3.png" alt="react toolkit components"/>
+<img src="image-4.png" alt="react toolkit profiler"/>
+<img src="image-5.png" alt="acr toolkit"/>
 
 - basic requirements
 

@@ -14,7 +14,8 @@ export default function SmallImg(props) {
         className="h-full"
         onClick={selecter}
         onKeyDown={key}
-        tabIndex={props.item.id}
+        tabIndex="0"
+        role="img"
       />
     </>
   );

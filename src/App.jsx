@@ -17,7 +17,7 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <main>
       <ImgBar data={data} setid={setId} />
       <ArrowButton
         src="./left.png"
@@ -40,6 +40,6 @@ export default function App() {
       {data.map((item) => {
         return item.id === id ? <FullImg key={item.id} item={item} /> : null;
       })}
-    </>
+    </main>
   );
 }
