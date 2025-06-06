@@ -14,7 +14,7 @@
   - Use useEffect - done ease
   - multiple components - done ease
   - Use .map() - done ease
-  - display a larger image when thumbnail is clicked - done eaase
+  - display a larger image when thumbnail is clicked - done ease
   - all images have alt text - done ease
   - keyboard navigation - done ease
 
