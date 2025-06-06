@@ -1,0 +1,26 @@
+.imgbar {
+  border: 2px solid greenyellow;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  gap: 3px;
+  transform: translateX(-50%);
+  overflow: auto;
+  width: 300px;
+  height: 100px;
+}
+
+@media (width < 800px) {
+  .imgbar {
+    bottom: 50px;
+  }
+}
+
+@media (width > 800px) {
+  .imgbar {
+    top: 30px;
+    width: 600px;
+    height: 150px;
+  }
+}

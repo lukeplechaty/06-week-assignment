@@ -1,10 +1,11 @@
 import SmallImg from "./SmallImg";
+import "./ImgBar.css";
 
 export default function ImgBar(props) {
   return (
-    <section>
+    <section className="imgbar">
       {props.data.map((item) => {
-        return <SmallImg key={item.id} item={item} />;
+        return <SmallImg key={item.id} item={item} setid={props.setid} />;
       })}
     </section>
   );
