@@ -19,7 +19,7 @@
   - keyboard navigation - done ease
 
 - stretch goals
-  - Use useEffect and the dependancy array to update the images when the user types in an input field.
+  - Use input field - nope
   - Set up an Unsplash application - nope dont undestand there documentation
   - Use .env - done ease
   - Styleing - done with pain - joe help me
