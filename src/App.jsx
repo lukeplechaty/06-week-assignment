@@ -18,11 +18,11 @@ export default function App() {
 
   return (
     <main>
-      <ImgBar data={data} setid={setId} />
+      <ImgBar data={data} setid={setId} id={id} />
       <ArrowButton
         src="./left.png"
         alt="left arrow button"
-        className="bg-white absolute top-1/2 left-5 hover:bg-amber-400"
+        className="left-5"
         setid={setId}
         id={id}
         move={-1}
@@ -31,7 +31,7 @@ export default function App() {
       <ArrowButton
         src="./right.png"
         alt="right arrow button"
-        className="bg-white absolute top-1/2 right-5 hover:bg-amber-400"
+        className="right-5"
         setid={setId}
         id={id}
         move={1}
